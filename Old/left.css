@@ -57,7 +57,8 @@
     margin-right: auto;
     margin-left: auto;
     height: 39%;
-    Width: 110%;
+    Width: 150%;
+    margin-left: -20%;
   }
 
 /* Headers design*/
@@ -65,6 +66,7 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: bolder;
+    font-size: 100%;
     }
 #SummaryHeader{
     color:white;
@@ -72,5 +74,5 @@
 /* Text design*/
 #summary{
   font-family: 'Dongle', sans-serif;
-    font-size: 15px;
+    font-size: 100%;
     }

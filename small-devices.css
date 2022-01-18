@@ -1,0 +1,31 @@
+#left {
+    height: 95vh;
+    width: 40%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+ }
+ .MeCard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px; /* 5px rounded corners */
+    background-color: #959499;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 49%;
+    Width: 175%;
+    margin-left: -32%;
+  }
+/* Cards design*/
+.AstroCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px; /* 5px rounded corners */
+    background-color: #c38d9e;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 28%;
+    Width: 97%;
+  }
