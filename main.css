@@ -1,0 +1,47 @@
+#blog{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #B4DFE5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-radius:  15px;
+}
+#about{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #959499;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-radius: 0px 15px 15px 0px;
+}
+
+
+#meImage{
+    margin-top: 2%;
+    height: 12%;
+    width: 20%;
+
+    margin-left: auto;
+    border-radius:100px;
+}
+#howTo{
+   Background:white;
+   Height:70%;
+   border-radius: 15px;
+   padding: 2%;
+   margin: 2%;
+   overflow: hidden;
+   position: relative;
+}
+#standingImage{
+    opacity: 0.2;
+  position: absolute;
+    width:90%;
+    height: 90%;
+}
+#mary{
+     font-family: 'Dongle', sans-serif;
+     position: relative;
+text-align: center;
+font-weight:bold;
+}

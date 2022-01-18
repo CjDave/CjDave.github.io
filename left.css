@@ -70,8 +70,7 @@
     color:white;
     }
 /* Text design*/
-.summary{
-    font-family: "Comic Sans MS", "Comic Sans";
-    text-align: center;
+#summary{
+  font-family: 'Dongle', sans-serif;
     font-size: 15px;
     }
