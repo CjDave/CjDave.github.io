@@ -13,7 +13,7 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
-    height: 39%;
+    height: 49%;
     Width: 170%;
     margin-left: -32%;
   }
@@ -27,5 +27,14 @@
     margin-right: auto;
     margin-left: auto;
     height: 38%;
-    Width: 95%;
+    Width: 70%;
   }
+
+  #summary{
+    font-family: 'Dongle', sans-serif;
+     font-size: 110%;
+     margin-left:10%;
+     margin-right:10%;
+ 
+     }
+     

@@ -1,6 +1,6 @@
 /* Body design*/
 body{
-   background-image: linear-gradient(to right, #93a5cf, #8e9ab8);
+   background-image: linear-gradient(to right, #333, #333);
 }
 
 
@@ -14,7 +14,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 15px; /* 5px rounded corners */
-    background-color: #c0e4ce;
+    background-color: #cfb37b;
    
   }
 
@@ -57,17 +57,13 @@ body{
     padding-bottom: 3%;
     }
 /* Text design*/
-#summary{
-   font-family: 'Dongle', sans-serif;
-    font-size: 100%;
-    margin-left:10%;
-    margin-right:10%;
-    }
+
 
 #footer{
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
     margin-left:20%;
+    color:white;
    
           }
 
