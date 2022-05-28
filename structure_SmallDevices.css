@@ -6,8 +6,8 @@ body {
     animation-name: bgColor;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-margin-left:auto;
-margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -21,8 +21,8 @@ margin-right:auto;
     grid-column-end: 3;
     font-family: 'Roboto', sans-serif;
     margin: 3%;
-    position:sticky;
-    
+    position: sticky;
+
 }
 
 #navBar {
@@ -41,13 +41,15 @@ margin-right:auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left:10%;
+    margin-left: 10%;
 }
-.imageFrame{
+
+.imageFrame {
     width: 25%;
     height: 50%;
-  
+
 }
+
 #homeImage {
     margin-top: -10%;
 }
@@ -57,37 +59,39 @@ margin-right:auto;
 }
 
 #frame {
-    display: block;
+    
     margin-left: auto;
-    margin-right: auto;
+
     Background: #2C2F33;
     border-radius: 15px;
     padding: 10px 0 0 0;
-    height: 50vh;
-    Width: 85%;
+    height: 70vh;
+    Width: 75vw;
     display: flex;
-    flex-direction: grid;
+    flex-direction: column;
 
     align-items: center;
 }
 
 #about {
-    width:120vw;
-    margin-left:0px;
+    width: 120vw;
+    margin-left: 0px;
 }
+
 .circleImage {
     width: 100%;
     height: 100%;
     margin-left: -43px;
 
 }
+
 .aboutFrame {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 100vh;
-   margin-left:5%;
+    margin-left: 5%;
 
 }
 
@@ -101,19 +105,18 @@ margin-right:auto;
 }
 
 #myself {
-    height: 50vh;
-    width:100vw;
-    margin-left: 35px;
+    height: 80vh;
+
 }
 
 #textFrame {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 
 }
 #aboutImage {
     width: 50%;
-  
+
     margin-left: 10%;
     margin-top: 10%;
 
@@ -129,13 +132,14 @@ margin-right:auto;
 }
 
 #webResources {
+    background: #000020;
     text-align: right;
     grid-column-start: 2;
     grid-column-end: 3;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: white;
-    Background: #2C2F33;
+
 }
 
 #cc {
@@ -147,8 +151,5 @@ margin-right:auto;
 
     color: white;
 
-   
+
 }
-
-
-

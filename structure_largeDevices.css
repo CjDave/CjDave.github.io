@@ -40,16 +40,16 @@ body {
 }
 
 #frame {
-    display: block;
+
     margin-left: auto;
     margin-right: auto;
     Background: #2C2F33;
     border-radius: 15px;
     padding: 10px 0 0 0;
-    height: 50vh;
+    height: 70vh;
     Width: 75vw;
     display: flex;
-    flex-direction: grid;
+    flex-direction: column;
 
     align-items: center;
 }
@@ -75,13 +75,13 @@ body {
 }
 
 #myself {
-    height: 50vh;
+    height: 80vh;
 
 }
 
 #textFrame {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 
 }
 
@@ -138,65 +138,3 @@ body {
 
 
 
-
-
-/* frame design*/
-.frame {
-    display: block;
-    margin-left: auto;
-    margin-top: 1%;
-    margin-right: auto;
-
-    border-radius: 25px;
-    padding: 10px 0 0 0;
-    height: 75vh;
-    Width: 80vw;
-}
-
-
-
-.aboutFrame2 {
-    display: grid;
-    justify-content: right;
-    text-align: right;
-
-    height: 200vh;
-    grid-template-rows: 5% 90%;
-    grid-template-columns: 40% 60%;
-}
-
-
-/* Section design*/
-.main {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 0;
-    grid-row-end: 1;
-    height: 100vh;
-
-}
-
-
-
-.About {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    height: 100vh;
-    margin-top: 20%;
-    margin-left: 3%;
-    width: 90%;
-    padding: 0px;
-    grid-template-columns: 10vw 88vw;
-
-}
-
-
-
-.inline {}
-
-#navigation {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 0;
-    grid-row-end: 1;
-}
