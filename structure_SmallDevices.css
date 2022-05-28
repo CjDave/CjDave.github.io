@@ -20,16 +20,15 @@ body {
     grid-column-start: 1;
     grid-column-end: 3;
     font-family: 'Roboto', sans-serif;
-    margin: 3%;
-    position: sticky;
+    text-align: center;
+   
 
 }
 
 #navBar {
     margin: 0px;
     height: 9vh;
-    display: grid;
-    grid-template-columns: 49vw 49vw;
+  width: 120vw;
 
 }
 
