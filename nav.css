@@ -1,0 +1,47 @@
+#navbarList {
+    list-style-type: none;
+    text-align: right;
+}
+
+li {
+    display: inline;
+
+}
+#name {
+  text-align:left;  
+  margin:3%;
+  font-size:23px;
+  
+}
+
+
+
+
+
+#navbarList {
+
+    font-family: 'Roboto', sans-serif;
+    margin:3%;
+}
+
+#navbarList a {
+
+    color: Black;
+    text-align: center;
+    padding: 0px 0px 0px 0;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+    font-display: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#navbarList a.active {
+    font-size: 47px;
+    width: 100%;
+}
+ a:hover {
+    background-color: white;
+    color:pink;
+}

@@ -1,0 +1,154 @@
+body {
+    Padding: 0;
+    /*background-color: #4C7999;*/
+    background-color: #ebd153;
+    animation-duration: 10s;
+    animation-name: bgColor;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+#name {
+
+    display: none;
+}
+
+#navbarList {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-family: 'Roboto', sans-serif;
+    margin: 3%;
+    position:sticky;
+    
+}
+
+#navBar {
+    margin: 0px;
+    height: 9vh;
+    display: grid;
+    grid-template-columns: 49vw 49vw;
+
+}
+
+
+#home {
+    height: 1100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:10%;
+}
+.imageFrame{
+    width: 25%;
+    height: 50%;
+  
+}
+#homeImage {
+    margin-top: -10%;
+}
+
+#homeText {
+    margin-top: 1%;
+}
+
+#frame {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    Background: #2C2F33;
+    border-radius: 15px;
+    padding: 10px 0 0 0;
+    height: 50vh;
+    Width: 85%;
+    display: flex;
+    flex-direction: grid;
+
+    align-items: center;
+}
+
+#about {
+    width:120vw;
+    margin-left:0px;
+}
+.circleImage {
+    width: 100%;
+    height: 100%;
+    margin-left: -43px;
+
+}
+.aboutFrame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   margin-left:5%;
+
+}
+
+#aboutTextFrame,
+#aboutTextFrame2 {
+    width: 44%;
+}
+
+#aboutTextFrame2 {
+    width: 40%;
+}
+
+#myself {
+    height: 50vh;
+    width:100vw;
+    margin-left: 35px;
+}
+
+#textFrame {
+    width: 100%;
+    height: 100%;
+
+}
+#aboutImage {
+    width: 50%;
+  
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+
+#footnote {
+    background: #000020;
+    display: grid;
+    display: grid;
+    grid-template-columns: 48vw 70vw;
+
+}
+
+#webResources {
+    text-align: right;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    Background: #2C2F33;
+}
+
+#cc {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    color: white;
+
+   
+}
+
+
+

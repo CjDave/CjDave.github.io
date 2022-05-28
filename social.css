@@ -1,0 +1,26 @@
+/* footer design*/
+
+#socials {
+    display: flex;
+    justify-content: center;
+    margin-top:1%;
+
+}
+/* Footer ahref design*/
+.socialHref{
+    height: 30px;
+    margin-left: 20px;
+}
+/* Footer Image design*/
+.socialImage {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
