@@ -6,7 +6,8 @@ body {
     animation-name: bgColor;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
+    scroll-snap-type: y mandatory;
+    scroll-padding: 0 24px;
 }
 
 #tet1 {
@@ -40,10 +41,13 @@ body {
 }
 
 #frame {
-
+    background: rgba(44, 47, 51, 0.85);
+    -webkit-backdrop-filter: blur(48px);
+    backdrop-filter: blur(48px);
+    border: 1px solid rgba(44, 47, 51, 0.425);
     margin-left: auto;
     margin-right: auto;
-    Background: #2C2F33;
+
     border-radius: 15px;
     padding: 10px 0 0 0;
     height: 70vh;
@@ -76,7 +80,8 @@ body {
 
 #myself {
     height: 80vh;
-
+    scroll-snap-align: start;
+    
 }
 
 #textFrame {
@@ -126,15 +131,12 @@ body {
 
     color: white;
 
-   
+
 }
 
 
 #cc a:hover {
     background-color: transparent;
 }
-
-
-
 
 

@@ -34,7 +34,7 @@
 
 
 .david {
-    color: #b35437;
+    color: #225375;
     width: 100%;
 }
 
@@ -74,84 +74,14 @@
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#test {
-    margin-top: -0px;
-}
-
-#test2 {
-    font-size: 20px;
-    text-align: center;
-}
-
-#test3 {
-    font-size: 35px;
-
-}
-
-
-
-
-#david {
-    color: #ebd153;
-    color: #2C2F33;
-}
-
 .blue {
     color: #72a5ca;
 }
 
-#blog {
-    text-align: left;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-display: bold;
-    color: #23272A;
-    word-wrap: break-word;
-}
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-display: bold;
-    color: #23272A;
-    margin-top: -10px;
-}
 
-.h1 {
-    font-size: 35px;
-    margin-top: 10px;
-}
 
-.h2 {
-    font-size: 30px;
-}
 
-.h3 {
-    font-size: 25px;
-}
-
-.h4 {
-    font-size: 20px;
-}
 
 
 /* Used in the info frame #5f99ff*/
