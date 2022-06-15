@@ -8,9 +8,11 @@ is on codepen at https://codepen.io/tokyoweb/pen/ZjdYVj
 }
 
 
+
 .circles {
-    grid-row-start: 1;
-    grid-row-end: 2;
+
+
+
     top: 0;
     left: 0;
     width: 100%;
@@ -27,8 +29,8 @@ is on codepen at https://codepen.io/tokyoweb/pen/ZjdYVj
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
-    animation-direction: alternate;
-    bottom: 0px;
+    animation-direction:   alternate;
+    bottom: -150px;
 
 
 }

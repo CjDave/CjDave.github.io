@@ -1,0 +1,46 @@
+@keyframes bgColor {
+    from {
+        background-color: #ebd153;
+    }
+
+    50% {
+        background-color: #4C7999;
+        display: none;
+    }
+
+    to {
+        background-color: pink;
+
+    }
+}
+
+@keyframes name {
+    from {
+        background-color: #ebd153;
+
+    }
+
+    a {
+        background-color: #4C7999;
+    }
+
+    to {
+        background-color: #F4ABC4;
+    }
+}
+
+@keyframes disappear {
+    from {
+        opacity: 1;
+    }
+
+    a {
+
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+

@@ -1,13 +1,21 @@
+li {
+    display: inline;
+
+}
+
 #name {
     text-align: left;
     margin: 3%;
-    font-size: 25px;
+    font-size: 23px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
 
 }
+
+
+
 
 #navbarList {
     list-style-type: none;
@@ -34,8 +42,12 @@
 }
 
 
+#navbarList a.active {
+    font-size: 47px;
+    width: 100%;
+}
 
 a:hover {
     background-color: white;
-  
+    color: pink;
 }

@@ -3,17 +3,13 @@
 .largeHeaderStyle1,
 .mediumHeaderStyle1,
 .david,
-#textStyle4,
-#textStyle5,
-#textStyle7,
-#textStyle8,
 #name {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-display: bold;
     color: #2C2F33;
-    
+
 }
 
 .smallHeaderStyle1 {
@@ -27,61 +23,16 @@
 }
 
 .mediumHeaderStyle1 {
-    font-size: 27px;
+    font-size: 25px;
     margin-top: 1%;
     font-weight: 500;
 }
 
-
 .david {
     color: #225375;
-    width: 100%;
 }
 
-#textStyle4 {
-    font-size: 20px;
-    text-align: left;
-    color: white;
-    border-radius: 20px;
-    padding: 0px 0px 0px 12px;
-    background-color: #23272A;
-
-}
-
-#textStyle5,#textStyle8 {
-    font-size: 40px;
-    text-align: left;
-    color: #23272A;
-    margin-top: 10px
-}
-
-#textStyle6,
-#textStyle7 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-display: bold;
-    font-size: 20px;
-    text-align: left;
-    color: #23272A;
-    margin-top: 10px;
-    font-weight: 500;
-
-}
-#textStyle7,#textStyle8 {
-    color: #F5F5DC;
-}
-#textStyle8{
-    text-align: center;
-}
 
 .blue {
-    color: #72a5ca;
+    color: #F5F5DC;
 }
-
-
-
-
-
-
-
-/* Used in the info frame #5f99ff*/

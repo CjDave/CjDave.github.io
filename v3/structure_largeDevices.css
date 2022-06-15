@@ -1,0 +1,142 @@
+body {
+    Padding: 0;
+    /*background-color: #4C7999;*/
+    background-color: #ebd153;
+    animation-duration: 10s;
+    animation-name: bgColor;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    scroll-snap-type: y mandatory;
+    scroll-padding: 0 24px;
+}
+
+#tet1 {
+    display: grid;
+    height: 100vh;
+}
+
+#navBar {
+    margin: 0px;
+    height: 9vh;
+    display: grid;
+    grid-template-columns: 49vw 49vw;
+}
+
+
+#home {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#homeImage {
+    margin-top: -10%;
+}
+
+#homeText {
+    margin-top: 1%;
+}
+
+#frame {
+    background: rgba(44, 47, 51, 0.85);
+    -webkit-backdrop-filter: blur(48px);
+    backdrop-filter: blur(48px);
+    border: 1px solid rgba(44, 47, 51, 0.425);
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 15px;
+    padding: 10px 0 0 0;
+    height: 70vh;
+    Width: 75vw;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+#about {}
+
+.aboutFrame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#aboutTextFrame,
+#aboutTextFrame2 {
+    width: 24%;
+}
+
+#aboutTextFrame2 {
+    width: 40%;
+}
+
+#myself {
+    height: 80vh;
+    scroll-snap-align: start;
+    
+}
+
+#textFrame {
+    width: 90%;
+    height: 90%;
+
+}
+
+
+
+#footnote {
+    background: #000020;
+    display: grid;
+    display: grid;
+    grid-template-columns: 48vw 48vw;
+}
+
+#footer {
+    Background: #2C2F33;
+    padding: 20px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 20%;
+    color: white;
+}
+
+#contacts {
+    margin-left: 10px;
+}
+
+#webResources {
+    text-align: right;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    color: white;
+}
+
+#cc {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    color: white;
+
+
+}
+
+
+#cc a:hover {
+    background-color: transparent;
+}
+
+
