@@ -1,0 +1,42 @@
+#name {
+    text-align: left;
+    margin: 3%;
+    font-size: 25px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+#navbarList {
+    list-style-type: none;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    margin: 3%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#navbarList a {
+
+    color: Black;
+    text-align: center;
+    padding: 0px 0px 0px 0;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+    font-display: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+a:hover {
+    background-color: white;
+    border-radius: 50px;
+  
+}

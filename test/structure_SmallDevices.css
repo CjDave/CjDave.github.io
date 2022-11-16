@@ -1,0 +1,63 @@
+body {
+    Padding: 0px;
+    margin: 0px;
+    /*background-color: #4C7999;*/
+    background-color: #F4ABC4;
+    display: grid;
+    grid-template-rows:10vh 90vh;
+    grid-template-columns: 80vw 20vw;
+    height: 100vh;
+    width: 100vw;
+}
+
+#navBar {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 49vw 49vw;
+}
+
+
+#home {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#homeImage {
+    margin-top: -10vh;
+}
+
+#homeText {
+    margin-top: 1%;
+}
+
+#contact {
+    display:none;
+
+}
+
+
+#socials1 {
+    display: flex;
+    justify-content: center;
+    margin-top:6%;
+
+}
+/* Footer ahref design*/
+.socialHref{
+    height: 30px;
+    margin-left: 20px;
+}
+/* Footer Image design*/
+.socialImage {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+@keyframes bgColor {
+    from {
+        content: "Bugs";
+    }
+
+    50% {
+
+        content: "C++";
+    }
+
+    to{
+        content: "Mondays";
+    }
+
+   
+}

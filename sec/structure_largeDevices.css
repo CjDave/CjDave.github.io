@@ -1,0 +1,126 @@
+body {
+    Padding: 0px;
+    margin: 0px;
+    background-color: #A8DADC;
+    display: grid;
+    grid-template-rows: 10vh 90vh;
+    grid-template-columns: 85vw 15vw;
+    height: 100vh;
+    width: 100vw;
+ 
+    /*text*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+#navBar {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    padding: 0px;
+}
+
+#greeting {
+    margin: 0px;
+    height: 100%;
+    font-weight: 700;
+    font-display: bold;
+    color: White;
+    font-size: 180%;
+
+}
+
+.red {
+    color: #EC5453;
+}
+
+#main {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 0px;
+    display: grid;
+    grid-template-rows: 35% 65%;
+    grid-template-columns: 40% 45% 15%;
+    margin: 0px;
+    z-index: 10;
+}
+
+#prompt {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    display: grid;
+    grid-template-rows: 100px 100px;
+
+    margin: 0;
+
+}
+
+#promptTxt {
+    font-weight: 600;
+    font-size: 45px;
+    color: #1D3557;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-left: 8%;
+}
+#white{
+    background-color: white;
+}
+
+#promptTxt2 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    color: #1D3557;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-left: 14%;
+}
+
+#mainImageFrm {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+#mainImage {
+    /*height: 150px;*/
+    height:25%;
+
+}
+
+#contact {
+    margin: 0px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}

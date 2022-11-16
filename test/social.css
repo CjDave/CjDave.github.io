@@ -1,0 +1,30 @@
+/* footer design*/
+
+#socials1 {
+    justify-content: center;
+    margin-top:2%;
+    display:none;
+
+}
+
+
+/* Footer Image design*/
+.socialImage {
+    height:100%;
+
+}
+
+/* Footer ahref design*/
+.socialHref {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45px;
+
+}
+
+
+
+
+
