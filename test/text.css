@@ -3,7 +3,7 @@
 .largeHeaderStyle1,
 .mediumHeaderStyle1,
 .david,
-#name {
+#bonjour {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -46,4 +46,3 @@
 #blue {
     color: #F5F5DC;
 }
-#name {}

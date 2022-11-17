@@ -1,46 +1,15 @@
 @keyframes bgColor {
     from {
-        background-color: #ebd153;
+        content: "Bugs";
     }
 
     50% {
-        background-color: #4C7999;
-        display: none;
+
+        content: "C++";
     }
 
-    to {
-        background-color: pink;
-
+    to{
+        content: "Mondays";
     }
+ 
 }
-
-@keyframes name {
-    from {
-        background-color: #ebd153;
-
-    }
-
-    a {
-        background-color: #4C7999;
-    }
-
-    to {
-        background-color: #F4ABC4;
-    }
-}
-
-@keyframes disappear {
-    from {
-        opacity: 1;
-    }
-
-    a {
-
-        opacity: 0.5;
-    }
-
-    to {
-        opacity: 0;
-    }
-}
-

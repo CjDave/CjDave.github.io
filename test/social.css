@@ -1,17 +1,9 @@
-/* footer design*/
-
-#socials1 {
-    justify-content: center;
-    margin-top:2%;
+#socialsMobile {
     display:none;
-
 }
 
-
-/* Footer Image design*/
 .socialImage {
     height:100%;
-
 }
 
 /* Footer ahref design*/

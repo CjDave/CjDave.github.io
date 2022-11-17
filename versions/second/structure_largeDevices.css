@@ -1,0 +1,43 @@
+body {
+    Padding: 0px;
+    margin:0px;
+    /*background-color: #4C7999;*/
+    background-color: #ebd153;
+    animation-duration: 10s;
+    animation-name: bgColor;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    display:grid;
+    grid-template-rows: 20vh 80vh;
+    grid-template-rows: 20% 80%;
+    height:100vh;
+    width:100vw;
+}
+
+#navBar {
+    grid-row-start: 1;
+    grid-row-end:2;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 49vw 49vw;
+}
+
+
+#home {
+    grid-row-start: 2;
+    grid-row-end:3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#homeImage {
+    margin-top: -12%;
+}
+
+#homeText {
+    margin-top: 1%;
+}
+
